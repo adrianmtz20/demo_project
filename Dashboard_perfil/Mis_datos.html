@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARRY. | Mis datos</title>
+    <link rel="stylesheet" href="../Estilos/Mis_datos.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="../Favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../Favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../Favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../Favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../Favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../Favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../Favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../Favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../Favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../Favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../Favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../Favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../Favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="../Favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <script src="../Procesamiento.js"></script>
+</head>
+<body>
+    <header class="Header_notificaciones">
+        <div class="Header_interno">
+            <img src="../Imagenes/Mi_cuenta/Back_ajustes.svg" alt="Ilustracion flecha volver" class="flecha_back" onclick="redireccionarajustes()">
+            <h1 class="Titulo_seccion">Mis <span style="color: #4578F6;">Datos</span></h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="Seccion_botonos_mis_datos">
+            <button class="my-button active">
+                <p class="Texto_boton">Datos <br> cuenta</p>
+            </button>
+            <button class="my-button">
+                <p class="Texto_boton">Datos personales</p>
+            </button>
+        </section>
+
+        <section class="Seccion_datos_cuenta">
+            <div class="Contenedor_datos">
+                <p class="Titulo_datos">Número de cuenta</p>
+                <p class="Texto_datos">823748923</p>
+                <hr>
+            </div>
+            <div class="Contenedor_datos">
+                <p class="Titulo_datos">Correo electrónico</p>
+                <p class="Texto_datos">adrian@carry.mx</p>
+                <hr>
+            </div>
+            <div class="Contenedor_datos">
+                <p class="Titulo_datos">Contraseña</p>
+                <p class="Texto_datos">********</p>
+                <hr>
+            </div>
+            <a class="Enlace_chg_passw">Cambiar contraseña</a>
+        </section>
+    </main>
+
+
+
+
+    <footer id="mi-footer">
+        <img src="../Logos/CARRY_W.png" alt="Logo CARRY." class="Logo_footer">
+        <p class="Copyright">© AMP Technologies S.A.P.I. de C.V.</p>
+    </footer>
+
+    <script>
+        var buttons = document.getElementsByClassName("my-button");
+        
+        for (var i = 0; i < buttons.length; i++) {
+          buttons[i].addEventListener("click", function() {
+
+            for (var j = 0; j < buttons.length; j++) {
+              buttons[j].classList.remove("active");
+            }
+            
+            this.classList.add("active");
+          });
+        }
+        </script>
+
+</body>
+</html>
