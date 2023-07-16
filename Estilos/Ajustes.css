@@ -1,0 +1,244 @@
+@font-face {
+    font-family: 'Semibold';
+    src: url('../Fuentes/Euclid\ Circular\ B\ SemiBold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Medium';
+    src: url('../Fuentes/Euclid\ Circular\ B\ Medium.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Regular';
+    src: url('../Fuentes/Euclid\ Circular\ B\ Regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Light';
+    src: url('../Fuentes/Euclid\ Circular\ B\ Light.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Light italic';
+    src: url('../Fuentes/Euclid\ Circular\ B\ Light\ Italic.ttf') format('truetype');
+  }
+
+  html, body {
+    /* background-color: blue; */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  main {
+    /* background-color: blue; */
+    min-height: 75.2%;
+    margin-bottom: 60px;
+  }
+
+  .Header_notificaciones{
+    height: 120px;
+    width: 100%;
+    background-color: #FAFAFA;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .Header_interno{
+    /* background-color: crimson; */
+    height: auto;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+.Titulo_seccion{
+    /* background-color: chartreuse; */
+    font-family: Medium;
+    font-size: 31px;
+    color: rgb(0, 0, 0);
+    margin-left: 0px;
+    text-align: center;
+    margin-left: 0px;
+    line-height: 1.2;
+    flex-grow: 1;
+    margin: 0%;
+    padding: 0%;
+}
+
+.Tache_back_seccion{
+    /* background-color: crimson; */
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+}
+
+#mi-footer {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+  }
+
+.Logo_footer{
+    /* background-color: crimson; */
+    height: 25px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Copyright{
+    /* background-color: crimson; */
+    font-family: Regular;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+.Aviso_verificado{
+    /* background-color: crimson; */
+    height: auto;
+    width: 100%;
+    max-width: 265px;
+    display: flex;
+    justify-content: start;
+    margin: 0%;
+    padding: 0%;
+    margin-top: 6px;
+    font-family: Light;
+    font-size: 20px;
+    text-align: start;
+    margin-bottom: 20px;
+    color: #4578F6;
+}
+
+.contenedor_opciones{
+    /* background-color: crimson; */
+    height: 500px;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: start;
+    margin: 0%;
+    padding: 0%;
+    margin: auto;
+    margin-top: 30px;
+    flex-direction: column;
+  }
+
+  .Div_op{
+    position: relative;
+    /* background-color: rgb(53, 220, 20); */
+    height: 80px;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    margin-top: 6px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .a_op{
+    /* background-color: rgb(213, 220, 20); */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    margin-top: 0px;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    justify-content: start;
+  }
+
+  .Icono_op_ajustes{
+    /* background-color: crimson; */
+    height: 40px;
+    width: auto;
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    margin-top: 0px;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5%;
+  }
+
+  .Texto_op_ajustes{
+    font-family: Regular;
+    font-size: 1.3em;
+    color: black;
+    margin-left:10%;
+  }
+
+  .Flecha_op_ajustes{
+    position: absolute;
+    height: 23px;
+    width: auto;
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    right: 0px;
+    margin-right: 5%;
+    }
+
+    .Div_botones_asistencia_y_salir{
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      margin: auto;
+      /* background-color: #6aff00; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      margin-top: 30px;
+      gap: 30px;
+    }
+  
+    .a_enlace_inferior{
+      text-decoration: none;
+    }
+  
+    .Boton_asistencia{
+      width: 160px;
+      height: 90px;
+      background-color: transparent;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 6px;
+      margin-right: 0px;
+      border: 2px solid #f1f1f1;
+      font-family: Light;
+      font-size: 1em;
+      margin-top: 0px;
+      /* text-decoration: none; */
+    }
+  
+    .Ilustracion_asistencia{
+      width: 40px;
+      height: auto;
+      margin-bottom: 4px;
+    }

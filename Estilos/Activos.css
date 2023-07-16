@@ -1,0 +1,401 @@
+@font-face {
+    font-family: 'Semibold';
+    src: url('../Fuentes/Euclid\ Circular\ B\ SemiBold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Medium';
+    src: url('../Fuentes/Euclid\ Circular\ B\ Medium.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Regular';
+    src: url('../Fuentes/Euclid\ Circular\ B\ Regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Light';
+    src: url('../Fuentes/Euclid\ Circular\ B\ Light.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Light italic';
+    src: url('../Fuentes/Euclid\ Circular\ B\ Light\ Italic.ttf') format('truetype');
+  }
+
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  main {
+    min-height: 79%;
+    margin-bottom: 60px;
+  }
+
+.Header_seccion_cuentas{
+    height: auto;
+    width: 100%;
+    background-color: #FAFAFA;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Header_interno{
+    /* background-color: crimson; */
+    height: auto;
+    width: 600px;
+    max-width: 600px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.Titulo_seccion{
+    /* background-color: chartreuse; */
+    font-family: Medium;
+    font-size: 31px;
+    color: rgb(0, 0, 0);
+    margin-left: 0px;
+    text-align: center;
+    margin-left: 0px;
+    line-height: 1.2;
+    flex-grow: 1;
+}
+
+.Flecha_back_seccion{
+    /* background-color: crimson; */
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+}
+
+.Texto_instrucciones_seccion{
+    /* background-color: crimson; */
+    font-family: Regular;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 30px;
+}
+
+#mi-footer {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+  }
+
+.Logo_footer{
+    /* background-color: crimson; */
+    height: 25px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Copyright{
+    /* background-color: crimson; */
+    font-family: Regular;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+.Lista_tramites{
+    /* background-color: crimson; */
+    height: auto;
+    max-width: 600px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.Tramite{
+    /* background-color: rgb(163, 220, 20); */
+    height: auto;
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+    /* cursor: pointer; */
+}
+
+.Tarjeta_tramite{
+    /* background-color: chartreuse; */
+    height: 120px;
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: row;
+    margin-top: 0px;
+    /* cursor: pointer;
+     */
+     margin-left: 30px;
+     margin-right: 30px;
+}
+
+.Seccion_imagen{
+    /* background-color: rgb(246, 255, 0); */
+    height: 69%;
+    width: 35%;
+    max-width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.imagen{
+    height: auto;
+    max-height: 100px;
+    width: 100%;
+    max-width: 150px;
+    cursor: pointer;
+    object-fit: cover;
+    /* max-height: 90px; */
+}
+
+.Texto_tramite{
+    /* background-color: rgb(20, 47, 220); */
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+.Titulo_tramite{
+    font-family: Medium;
+    font-size: 1.3em;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin: 0px;
+    margin-left: 50px;
+    padding: 0px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.Descripcion_tramite{
+    font-family: Light;
+    font-size: 1em;
+    color: #666666;
+    text-align: left;
+    margin: 0px;
+    margin-top: 3px;
+    margin-left: 50px;
+    padding: 0px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.Flecha_adelante{
+    /* background-color: rgb(246, 255, 0); */
+    height: auto;
+    width: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 23px;
+    cursor: pointer;
+}
+
+.Linea_separadora_tramites{
+    background-color: #E5E5E5;
+    height: 2px;
+    width: 95%;
+    border: 0px;
+    margin-top: 2px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.Boton_estatus_rojo{
+    background-color: #EF2F2F;
+    height: 30px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 23px;
+    cursor: auto;
+    border-radius: 3px;
+    border: 0px;
+    color: #ffffff;
+    font-family: Light;
+    font-size: .8em;
+    padding: 0px 13px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.Boton_estatus_verde{
+    background-color: #33AB30;
+    height: 30px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 23px;
+    cursor: auto;
+    border-radius: 3px;
+    border: 0px;
+    color: #ffffff;
+    font-family: Light;
+    padding: 0px 13px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.Boton_estatus_amarillo{
+    background-color: #FFD704;
+    height: 30px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 23px;
+    cursor: auto;
+    border-radius: 3px;
+    border: 0px;
+    color: #ffffff;
+    font-family: Light;
+    padding: 0px 13px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.Div_filtros{
+    margin: auto;
+    /* background-color: crimson; */
+    height: auto;
+    width: 600px;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: row;
+    margin-top: 13px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.filter-input {
+    /* box-sizing: border-box; */
+    width: 330px;
+    height: 50px;
+    position: relative;
+  }
+
+  .filter-input input[type="text"] {
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    padding-left: 54px;
+    margin-right: 54px;
+    background-color: #f1f1f1;
+    border: none;
+    outline: none;
+    font-size: .95em;
+    font-family: Light;
+    color: #666666;
+  }
+
+  .filter-input .search-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 34px;
+    height: 34px;
+    margin: 10px;
+    background-image: url("../Imagenes/Mi_cuenta/search.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+.Ilustracion_filtrar{
+  /* background-color: #33AB30; */
+    height: 32px;
+    width: 32px;
+    margin-left: 10px;
+}
+
+
+  .dropdown {
+    background-color: #f1f1f1;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    display: flex;
+    margin-left: 30px;
+    border-radius: 5px;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .dropdown-toggle {
+    display: none;
+  }
+  
+  .dropdown-label {
+    /* background-color: #ff0000; */
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    text-align: left;
+    cursor: pointer;
+    font-family: Light;
+    font-size: .95em;
+    color: #666666;
+    padding: 0px 0px 0px 16px;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 160px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #f1f1f1;
+    font-family: Light;
+    font-size: .9em;
+  }
+  
+  .dropdown-menu li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .dropdown-toggle:checked + .dropdown-label + .dropdown-menu {
+    display: block;
+  }

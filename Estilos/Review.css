@@ -1,0 +1,373 @@
+@font-face {
+    font-family: 'Semibold';
+    src: url('../Fuentes/Euclid\ Circular\ B\ SemiBold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Medium';
+    src: url('../Fuentes/Euclid\ Circular\ B\ Medium.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Regular';
+    src: url('../Fuentes/Euclid\ Circular\ B\ Regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Light';
+    src: url('../Fuentes/Euclid\ Circular\ B\ Light.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Light italic';
+    src: url('../Fuentes/Euclid\ Circular\ B\ Light\ Italic.ttf') format('truetype');
+  }
+  
+  html{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+  }
+  
+  body{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+  }
+
+  .Header_preguntas{
+    background-color: #000000;
+    width: 100%;
+    height: 90px;
+  }
+  
+  .apartado_logo_principal{
+    /* background-color: greenyellow; */
+      width: 400px;
+      height: 100%;
+      padding: 0px;
+      margin: 0px;
+      border: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .logo_encabezado{
+    height: 60px;
+    width: auto;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    margin-left: 0px;
+  }
+
+
+.Div_imagen_review{
+    /* background-color: #ff0000; */
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Imagen_review{
+    /* background-color: #00ff1a; */
+    width: 250px;
+    height: auto;
+  }
+  
+  .Contenedor_texto_intro_review{
+    /* background-color: #ddff00; */
+    max-width: 1000px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 46px;
+    /* align-items: center; */
+  }
+  
+  .Titulo_review{
+    /* background-color: #2f00ff; */
+    font-family: Medium;
+    font-size: 40px;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    text-align: center;
+    line-height: 1.2;
+  }
+  
+  .Titulo_review_gris{
+    font-family: Medium;
+    font-size: 40px;
+    color: #959595;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    text-align: center;
+  }
+  
+  .Enlistado_beneficios_review{
+    /* background-color: #00ff1a; */
+    max-width: 600px;
+    height: auto;
+    margin: auto;
+    margin-top: 0px;
+  }
+  
+  .Beneficio_review{
+    /* background-color: #2200ff; */
+    max-width: 460px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    /* align-items: center; */
+    /* justify-content: center; */
+  }
+  
+  .Ilustracion_dot_review{
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    margin-top: 2px;
+  }
+  
+  .Div_texto_beneficio_review{
+    /* background-color: #ff0000; */
+    width: auto;
+    height: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    margin-left: 23px;
+  }
+  
+  .Subtitulo_beneficio{
+    font-family: Regular;
+    font-size:23px;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  
+  .Texto_beneficio{
+    font-family: Light;
+    font-size: 19px;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  
+  .Tarjeta_recap_requisitos{
+    background-color: #4578F6;
+    max-width: 600px;
+    height: auto;
+    margin: auto;
+    border: 0px;
+    border-radius: 5px;
+    padding: 0px;
+    margin-top: 56px;
+    padding-bottom: 16px;
+  }
+  
+  .Encabezado_tarjeta_recap_requisitos{
+    /* background-color: #ff0000; */
+    font-family: Medium;
+    font-size: 25px;
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 36px;
+    text-align: center;
+  }
+  
+  .Texto_recap_requisitos{
+    /* background-color: lime; */
+    font-family: Light;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 500px;
+    padding-top: 20px;
+  }
+  
+  .Texto_recap_requisitos_resaltado{
+    font-family: Regular;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 500px;
+  }
+  
+  .Contenedor_tarjetas_recap_requisitos{
+    /* background-color: #ff0000; */
+    max-width: 500px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .Tarjeta_requisito_recap{
+    background-color: #ffffff73;
+    width: 200px;
+    height: 105px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .Tarjeta_requisito_recap_con_especificacion{
+    background-color: #ffffff73;
+    width: 200px;
+    height: 105px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px; */
+  }
+  
+  .Exterior_tarjeta_requsito_recap{
+    /* background-color: #fbff00; */
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+  
+  .Exterior_tarjeta_requsito_recap_ultimos{
+    /* background-color: #fbff00; */
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+  
+  .Texto_tarjeta_recap{
+    font-family: Light;
+    font-size: 18px;
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    padding-left: 13px;
+    padding-right: 13px;
+    text-align: center;
+    max-width: 200px;
+  }
+  
+  .Texto_especificacion_requisito_recap{
+    /* background-color: #f2ff00; */
+    font-family: Light;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    padding-top: 5px;
+  }
+  
+  .Botones_continuar_volver_recap{
+    /* background-color: #ff0000; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18px;
+    margin-bottom: 52px;
+  }
+
+  .Boton_continuar_pregunta_0{
+    background-color: #4578F6;
+    width: 240px;
+    height: 46px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 5px;
+    font-family: Light;
+    font-size: 21px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .Boton_volver_pregunta_0{
+    background-color: #ffffff;
+    width: 160px;
+    height: 20px;
+    border: 0px;
+    border-radius: 5px;
+    font-family: Light;
+    font-size: 15px;
+    color: #606060;
+    cursor: pointer;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 13px;
+  }

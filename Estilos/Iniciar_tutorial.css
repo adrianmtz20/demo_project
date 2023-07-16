@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'Semibold';
+    src: url('../Fuentes/Euclid\ Circular\ B\ SemiBold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Medium';
+    src: url('../Fuentes/Euclid\ Circular\ B\ Medium.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Regular';
+    src: url('../Fuentes/Euclid\ Circular\ B\ Regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Light';
+    src: url('../Fuentes/Euclid\ Circular\ B\ Light.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Light italic';
+    src: url('../Fuentes/Euclid\ Circular\ B\ Light\ Italic.ttf') format('truetype');
+  }
+  
+  html{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+  }
+  
+  body{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+  }
+
+  .Header_preguntas{
+    background-color: #000000;
+    width: 100%;
+    height: 90px;
+  }
+  
+  .apartado_logo_principal{
+    /* background-color: greenyellow; */
+      width: 400px;
+      height: 100%;
+      padding: 0px;
+      margin: 0px;
+      border: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: auto;
+  }
+  
+  .logo_encabezado{
+    height: 60px;
+    width: auto;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    margin-left: 0px;
+  }
+
+  /* _________________________________Pagina verificación éxitosa________________________________ */
+
+.Div_imagen_verificacion_exitosa{
+    /* background-color: #ff0000; */
+    width: 100%;
+    height: 340px;
+    margin-top: 0px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+  }
+  
+  .Imagen_verificacion_exitosa{
+    /* background-color: #00ff1a; */
+    width: 280px;
+    height: auto;
+    margin-top: 0px;
+  }
+  
+  .Div_Texto_verificacion_exitosa{
+    /* background-color: #ddff00; */
+    max-width: 600px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+    border: 0px;
+    padding: 0px;
+    margin-bottom: 45px;
+  }
+  
+  .Texto_verificacion_exitosa{
+  font-family: Medium;
+  font-size: 40px;
+  color: #000000;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  text-align: center;
+  line-height: 1.2;
+  max-width: 540px;
+  }
+  
+  .Div_boton_continuar{
+    /* background-color: #001aff; */
+    max-width: 400px;
+    height: auto;
+    margin: auto;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 75px;
+    border: 0px;
+    padding: 0px;
+  }
+  
+  .Boton_continuar_confirmacion{
+    background-color: #4578F6;
+    width: 240px;
+    height: 46px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 5px;
+    font-family: Regular;
+    font-size: 21px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .Footer_verificar_cuenta_flujo {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Parte_inferior_footer_crear_cuenta{
+    /* background-color: rgb(153, 255, 0); */
+    margin: auto;
+    max-width: 800px;
+    height: 20px;
+    text-align: center;
+    padding: 0px;
+    border: 0px;
+    display: flex;
+    margin-top: 6px;
+    margin-bottom: 0px;
+  }
+  
+  
+  
+  .Texto_copyright_footer_crear_cuenta{
+    /* background-color: yellow; */
+    color: #ffffff;
+    font-family: Light;
+    font-size: 12px;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    border: 0px;
+    padding: 0px;
+  }
+
+  .Texto_descriptivo{
+    /* background-color: #ff0000; */
+    font-family: Light;
+    font-size: 1.2em;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    text-align: center;
+    line-height: 1.2;
+    max-width: 500px;
+    margin-top: 20px;
+  }

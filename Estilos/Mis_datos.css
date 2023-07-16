@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'Semibold';
+    src: url('../Fuentes/Euclid\ Circular\ B\ SemiBold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Medium';
+    src: url('../Fuentes/Euclid\ Circular\ B\ Medium.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Regular';
+    src: url('../Fuentes/Euclid\ Circular\ B\ Regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Light';
+    src: url('../Fuentes/Euclid\ Circular\ B\ Light.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Light italic';
+    src: url('../Fuentes/Euclid\ Circular\ B\ Light\ Italic.ttf') format('truetype');
+  }
+
+  html, body {
+    /* background-color: blue; */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  main {
+    /* background-color: blue; */
+    min-height: 77.2%;
+    margin-bottom: 60px;
+  }
+
+  .Header_notificaciones{
+    height: 100px;
+    width: 100%;
+    background-color: #FAFAFA;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .Header_interno{
+    /* background-color: crimson; */
+    height: auto;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.Titulo_seccion{
+    /* background-color: chartreuse; */
+    font-family: Medium;
+    font-size: 31px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 0px;
+    line-height: 1.2;
+    flex-grow: 1;
+    margin: 0%;
+    padding: 0%;
+}
+
+.flecha_back{
+    /* background-color: crimson; */
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+}
+
+#mi-footer {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+  }
+
+.Logo_footer{
+    /* background-color: crimson; */
+    height: 25px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Copyright{
+    /* background-color: crimson; */
+    font-family: Regular;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+.Seccion_botonos_mis_datos{
+    /* background-color: crimson; */
+    height: auto;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.my-button {
+    background-color: #ffffff;
+    height: 80px;
+    width: 160px;
+    color: #000000;
+    padding: 0px;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+  
+  .my-button.active {
+    background-color: #4678f7;
+    color: #ffffff;
+  }
+
+.Texto_boton{
+    font-family: Regular;
+    font-size: 21px;
+    /* color: rgb(255, 255, 255); */
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+  
+.Seccion_datos_cuenta{
+    /* background-color: crimson; */
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: start;
+    /* align-items: center; */
+    flex-direction: column;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.Contenedor_datos{
+    width: 100%;
+    height: auto;
+    /* background-color: chartreuse; */
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.Titulo_datos{
+    font-family: Regular;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.Texto_datos{
+    color: #494949;
+    font-family: Light;
+    font-size: 17px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    margin-top: 10px;
+}
+
+hr{
+    width: 100%;
+    height: 3px;
+    background-color: #F1F1F1;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 16px;
+}
+
+.Enlace_chg_passw{
+  color: #4678f7;
+  font-family: Light;
+  font-size: 16px;
+  margin-top: 13px;
+  cursor: pointer;
+}
