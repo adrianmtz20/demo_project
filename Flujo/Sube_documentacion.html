@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARRY. | Documentos</title>
+    <link rel="stylesheet" href="../Estilos/Sube_documentos.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="../Favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../Favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../Favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../Favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../Favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../Favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../Favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../Favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../Favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../Favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../Favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../Favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../Favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="../Favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header class="Header_preguntas">
+        <a class="apartado_logo_principal" href="Index.html">
+            <img id="logo_encabezado" alt="Logo Carry" src="../Logos/CARRY_W.png" class="logo_encabezado">
+        </a>
+    </header>
+
+    <main>
+        <section class="Div_numero_paso">
+            <h1 class="Numero_paso">Paso 3 de 6</h1>
+        </section>
+        <section>
+            <div class="Div_titulo_paso">
+                <hr class="Linea_lateral_titulo_paso_crear_cuenta">
+                <h1 class="Titulo_crear_cuenta"><span style="color: #959595;">Sube</span> los documentos</h1>
+            </div>
+        </section>
+        <section class="Contenedor_tarjetas_documentos_subir">
+            <div class="Tarjeta_documento_subir">
+                <div class="Div_superior_tarjeta">
+                    <input class="Input_documento_subir" type="file" id="Acta_defuncion_subir" name="Acta_defuncion_subir" style="display: none;" onchange="mostrarNombreDocumentoActaDefuncion(event)">
+                    <label for="Acta_defuncion_subir" class="boton_ilustrado" onclick="abrirVentanaDocumentos(event)">
+                        <img src="../Imagenes/Sube_documentacion/upload_file_FILL0_wght300_GRAD0_opsz40.svg" alt="Botón Personalizado" class="SVG_documento">
+                    </label>
+                    <p id="nombre_documento_seleccionado_defuncion" class="Nombre_documento_seleccionado"></p>
+                    <img src="../Imagenes/Dashboard_iniciar/Paloma_completado_verde.svg" alt="Ilustracion_confirmacion" class="Ilustracion_confirmacion">
+                </div>
+                <p class="Nombre_documento_subir" id="Fondo_documento_defuncion" for="Acta_defuncion_subir">Acta de defunción</p>
+            </div>
+            <div class="Tarjeta_documento_subir">
+                <div class="Div_superior_tarjeta">
+                    <input class="Input_documento_subir" type="file" id="Acta_nacimiento_subir" name="Acta_nacimiento_subir" style="display: none;" onchange="mostrarNombreDocumentoActaNacimiento(event)">
+                    <label for="Acta_nacimiento_subir" class="boton_ilustrado" onclick="abrirVentanaDocumentosNacimiento()">
+                        <img src="../Imagenes/Sube_documentacion/upload_file_FILL0_wght300_GRAD0_opsz40.svg" alt="Botón Personalizado" class="SVG_documento">
+                    </label>
+                    <p id="nombre_documento_seleccionado_nacimiento" class="Nombre_documento_seleccionado"></p>
+                    <img src="../Imagenes/Dashboard_iniciar/Paloma_completado_verde.svg" alt="Ilustracion_confirmacion" class="Ilustracion_confirmacion">
+                </div>
+                <p class="Nombre_documento_subir" id="Fondo_documento_nacimiento" for="Acta_nacimiento_subir">Acta de nacimiento</p>
+            </div>
+            <div class="Tarjeta_documento_subir_ultima">
+                <div class="Div_superior_tarjeta">
+                    <input class="Input_documento_subir" type="file" id="Ine_subir" name="Ine_subir" style="display: none;" onchange="mostrarNombreDocumentoIne(event)">
+                    <label for="Ine_subir" class="boton_ilustrado" onclick="abrirVentanaDocumentosIne()">
+                        <img src="../Imagenes/Sube_documentacion/upload_file_FILL0_wght300_GRAD0_opsz40.svg" alt="Botón Personalizado" class="SVG_documento">
+                    </label>
+                    <p id="nombre_documento_seleccionado_ine" class="Nombre_documento_seleccionado"></p>
+                    <img src="../Imagenes/Dashboard_iniciar/Paloma_completado_verde.svg" alt="Ilustracion_confirmacion" class="Ilustracion_confirmacion">
+                </div>
+                <p class="Nombre_documento_subir" id="Fondo_documento_ine" for="Ine_subir">Tu INE o pasaporte</p>
+            </div>
+        </section>
+        <section class="Div_aviso_previo_datos_usuario">
+            <p class="Texto_aviso_previo_datos_usuario"><span class="Texto_aviso_previo_datos_usuario" style="font-family: Medium;">Nota:</span> Antes de continuar verifica que los documentos sean correctos</p>
+            <a href="Dashboard_iniciar.html">
+                <button class="Boton_guardar_datos">Guardar datos</button>
+            </a>
+            <a href="Dashboard_iniciar.html" class="Boton_volver_sin_guardar">Volver sin guardar</a>
+        </section>
+    </main>
+
+    <footer class="Footer_datos_ser_querido_flujo">
+        <section class="Parte_inferior_footer_crear_cuenta">
+            <p class="Texto_copyright_footer_crear_cuenta">© AMP Technologies S.A.P.I. de C.V.</p>
+        </section>
+    </footer>
+
+    <script src="../Procesamiento.js"></script>
+</body>
+</html>

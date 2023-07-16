@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARRY. | Verifica</title>
+    <link rel="stylesheet" href="../Estilos/Verificacion.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="../Favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../Favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../Favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../Favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../Favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../Favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../Favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../Favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../Favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../Favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../Favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../Favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../Favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="../Favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header class="Header_preguntas">
+        <a class="apartado_logo_principal">
+            <img id="logo_encabezado" alt="Logo Carry" src="../Logos/CARRY_W.png" class="logo_encabezado">
+        </a>
+    </header>
+
+    <main>
+        <section class="Div_titulo_paso">
+            <hr class="Linea_lateral_titulo_paso_crear_cuenta">
+            <h1 class="Titulo_crear_cuenta">Verifica<br>tu <span style="color: #959595;">cuenta</span></h1>
+        </section>
+        <section class="Div_texto_instruccion_verifica">
+            <p class="Texto_verifica_cuenta_instruccion">Escribe los 6 números que recibiste en tu email</p>
+        </section>
+        <section class="Div_inputs_numeros_verificacion">
+            <input type="text" id="NumeroInput_1" class="Input_numero_verificacion" maxlength="1" oninput="validarNumero(this); moverFoco(this, 'NumeroInput_1', 'NumeroInput_2')" onkeydown="manejarTeclaPresionada(event, 'NumeroInput_1', '', 'NumeroInput_2')">
+            <input type="text" id="NumeroInput_2" class="Input_numero_verificacion" maxlength="1" oninput="validarNumero(this); moverFoco(this, 'NumeroInput_1', 'NumeroInput_3')" onkeydown="manejarTeclaPresionada(event, 'NumeroInput_2', 'NumeroInput_1', 'NumeroInput_3')">
+            <input type="text" id="NumeroInput_3" class="Input_numero_verificacion" maxlength="1" oninput="validarNumero(this); moverFoco(this, 'NumeroInput_2', 'NumeroInput_4')" onkeydown="manejarTeclaPresionada(event, 'NumeroInput_3', 'NumeroInput_2', 'NumeroInput_4')">
+            <input type="text" id="NumeroInput_4" class="Input_numero_verificacion" maxlength="1" oninput="validarNumero(this); moverFoco(this, 'NumeroInput_3', 'NumeroInput_5')" onkeydown="manejarTeclaPresionada(event, 'NumeroInput_4', 'NumeroInput_3', 'NumeroInput_5')">
+            <input type="text" id="NumeroInput_5" class="Input_numero_verificacion" maxlength="1" oninput="validarNumero(this); moverFoco(this, 'NumeroInput_4', 'NumeroInput_6')" onkeydown="manejarTeclaPresionada(event, 'NumeroInput_5', 'NumeroInput_4', 'NumeroInput_6')">
+            <input type="text" id="NumeroInput_6" class="Input_numero_verificacion" maxlength="1" oninput="validarNumero(this); moverFoco(this, 'NumeroInput_5', 'NumeroInput_6')" onkeydown="manejarTeclaPresionada(event, 'NumeroInput_6', 'NumeroInput_5', '')">
+        </section>
+        <section class="Div_botones_verificar_y_no_recibi_codigo">
+            <a href="Confirmacion_verificacion.html">
+                <button class="Boton_verificar_codigo">Verificar</button>
+            </a>
+            <a href="CrearCuenta.html">
+                <button class="Boton_no_recibi_codigo">¿No recibiste el código?</button>
+            </a>
+            <a href="CrearCuenta.html">
+                <button class="Boton_no_recibi_codigo">Modificar email</button>
+            </a>
+        </section>
+    </main>
+
+    <footer class="Footer_verificar_cuenta_flujo">
+        <section class="Parte_inferior_footer_crear_cuenta">
+            <p class="Texto_copyright_footer_crear_cuenta">© AMP Technologies S.A.P.I. de C.V.</p>
+        </section>
+    </footer>
+
+    <script src="../Procesamiento.js"></script>
+</body>
+</html>
