@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARRY. | Aliados</title>
+    <link rel="stylesheet" href="Estilos.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="Favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="Favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="Favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="Favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="Favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="Favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="Favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="Favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="Favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="Favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="Favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header class="encabezado">
+        <div class="centrado_header">
+            <a class="apartado_logo_principal" href="Index.html">
+                <img id="logo_encabezado" alt="Logo Carry" src="Logos/CARRY_W.png" class="logo_encabezado">
+            </a>
+            <nav class="apartado_menu">
+                <ul class="menu">
+                    <li><a href="Index.html">Inicio</a></li>
+                    <li><a href="Aliados.html">Aliados</a></li>
+                    <li><a href="Nosotros.html">Nosotros</a></li>
+                    <li><a href="x.html">Tutoriales</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                    <li><a href="x.html"><span class="Mi_cuenta">Mi cuenta</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="Contenedor_imagen_aliados">
+            <div class="Parte_derecha_intro_aliados"></div>
+        </section>
+        <section class="Contenedor_texto_aliados">
+            <div class="Parte_izquierda_intro_aliados">
+                <h1 class="Titulo_aliados">Nuestros aliados</h1>
+                <p class="Texto_aliados">Descubre las organizaciones donde podrás encontrar y gestionar cuentas</p>
+            </div>
+        </section>
+        <section class="Contenedor_filtros_aliados">
+            <label class="Label_filtro_industria" for="Div_filtrar">Filtrar por:</label>
+              <div id="Div_filtrar" class="Filtro_select_y_buscar">
+                    <select class="Lista_desplegable_industrias" id="Filtro_indsutria_lista_desplegable">
+                        <option value="todos" selected>Industria</option>
+                        <option value="Bancos">Bancos</option>
+                        <option value="Inversiones">Inversiones</option>
+                        <option value="Fintech">Fintech</option>
+                        <option value="Seguros">Seguros</option>
+                        <option value="Afores">Afores</option>
+                        <option value="Departamentales">Departamentales</option>
+                        <option value="Créditos">Créditos (Auto, personal, otros)</option>
+                        <option value="Hipoteca">Hipoteca</option>
+                        <option value="Gob_estatal">Entidades estatales</option>
+                        <option value="Gob_federal">Entidades federales</option>
+                        <option value="Telefonia_movil">Telefonía móvil</option>
+                        <option value="TV_e_internet">TV e internet</option>
+                        <option value="Clubes_gimnasio">Clubes y gimnasios</option>
+                        <option value="Suscripcion_peliculas">Suscripciones películas</option>
+                        <option value="Suscripcion_musica">Suscripciones música</option>
+                        <option value="Suscripcion_software">Suscripciones software</option>
+                        <option value="Redes_sociales">Redes sociales</option>
+                    </select>
+                    <input class="Filtro_buscar" type="text" placeholder="Buscar">
+              </div>
+        </section>
+        <section class="Contenedor_logos_aliados">
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado_ajustado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/IMSS.png);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">IMSS</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Seguridad social</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado_ajustado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/SAT.jpeg);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">SAT</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Impuestos</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado_ajustado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/INE.png);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">INE</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Cedula identidad</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/FOVISSSTE.jpeg);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">FOVISSSTE</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Seguridad social</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/RENAPO.jpeg);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">RENAPO</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Gobierno</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/BBVA.webp);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">BBVA</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Banco</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Santander.jpeg);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Santander</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Banco</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Banamex.jpeg);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Citibanamex</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Banco</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/HSBC.jpeg);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">HSBC</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Banco</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Scotiabank.svg);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Scotiabank</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Banco</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Inbursa.jpeg);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Inbursa</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Banco</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Banbajio.webp);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Banbajio</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Banco</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Banregio.jpeg);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Banregio</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Banco</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Banorte.avif);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Banorte</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Banco</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Cibanco.webp);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Cibanco</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Banco</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Profuturo.jpeg);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Profuturo</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Afore</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Afore_banorte.jpeg);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Banorte XXI</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Afore</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/FINSUS.webp);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">FINSUS</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Inversión</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/GBM.png);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">GBM</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Inversión</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/VW.jpeg);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Volkswagen</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Crédito</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/AMEX.png);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">AMEX</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Crédito</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Coppel.webp);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Coppel</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Crédito</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Liverpool.jpeg);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Liverpool</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Crédito</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/PalacioDeHierro.jpeg);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Palacio de Hierro</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Crédito</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Elektra.avif);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Elektra</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Crédito</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado_ajustado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/CONAGUA.png);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">CONAGUA</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Servicios</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado_ajustado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/CFE.jpeg);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">CFE</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Servicios</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/IZZI.jpeg);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">iZZi</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">TV e internet</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado_ajustado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Sky.png);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">SKY</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">TV e internet</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado_ajustado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Telmex.png);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Telmex</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">TV e internet</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado_ajustado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Megacable.png);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Megacable</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">TV e internet</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Nubank.jpeg);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Nubank</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Fintech</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Fondeadora.png);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Fondeadora</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Fintech</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Telcel.jpeg);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Telcel</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Telefonía móvil</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/VirginMobile.jpeg);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Virgin Mobile</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Telefonía móvil</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/ATT.webp);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">AT&T</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Telefonía móvil</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Movistar.jpg_large);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Movistar</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Telefonía móvil</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado_ajustado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Mapfre.png);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Mapfre</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Seguros</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado_ajustado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/GNP.jpeg);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">GNP</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Seguros</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Netflix.jpeg);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Netflix</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Suscripciones</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/hbo.webp);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">HBO</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Suscripciones</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado_ajustado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Disney.png);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Disney+</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Suscripciones</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado_ajustado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/iCloud.png);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">iCloud</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Suscripciones</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado_ajustado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Microsoft.jpeg);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Microsoft</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Suscripciones</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Apple_tv.jpg);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Apple Tv</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Suscripciones</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Amazon.png);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Amazon prime</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Suscripciones</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Spotify.png);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Spotify</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Suscripciones</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Apple_music.jpeg);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Apple music</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Suscripciones</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Amazon_music.jpeg);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Amazon music</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Suscripciones</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Smartfit.webp);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Smart fit</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Membresias</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/NL.png);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Nuevo León</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Gobierno estatal</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado_ajustado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/CDMX.jpeg);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">CDMX</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Gobierno estatal</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado_ajustado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/BAJA.png);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Baja California</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Gobierno estatal</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Veracruz.jpeg);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Veracruz</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Gobierno estatal</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado_ajustado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Puebla.png);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Puebla</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Gobierno estatal</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado_ajustado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Morelos.png);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Morelos</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Gobierno estatal</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Twitter.webp);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Twitter</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Red social</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado_ajustado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Facebook.png);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Facebook</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Red social</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado_ajustado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Linkedin.png);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Linkedin</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Red social</p>
+                </div>
+            </div>
+            <div class="Tarjeta_logo_aliado" onclick="redireccionar(this)" empresa-url="">
+                <div class="Logo_tarjeta_aliado" style="background-image: url(Imagenes/Pagina_aliados/Logos_aliados/Instagram.gif);"></div>
+                <div class="Div_texto_tarjeta_aliado">
+                    <p class="Texto_tarjeta_aliados_nombre_empresa">Instagram</p>
+                    <p class="Texto_tarjeta_aliados_industria_empresa">Red social</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor_superior_footer">
+            <div class="parte_izquierda_footer">
+                <div class="parte_izquierda_footer_contenido">
+                    <h5 class="Titulo_en_footer">Enlaces </h5>
+                    <hr class="Linea_titulo_footer">
+                    <div class="Div_enlaces">
+                        <div class="Div_enlaces_parte_1">
+                            <ul class="Lista_enlaces_footer">
+                                <li><a href="">Detalles del servicio</a></li>
+                                <li><a href="">Preguntas frecuentes</a></li>
+                                <li><a href="">Acerca de nosotros</a></li>
+                                <li><a href="">Blog</a></li>
+                            </ul>
+                        </div>
+                        <div class="Div_enlaces_parte_2">
+                            <ul class="Lista_enlaces_footer">
+                                <li><a href="">Empresas aliadas</a></li>
+                                <li><a href="">Trabaja con nosotros</a></li>
+                                <li><a href="">Contacto</a></li>
+                                <li><a href="">Factura</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="parte_derecha_footer">
+                <div class="parte_derecha_parte_superior">
+                    <div class="parte_derecha_parte_superior_izquierda">
+                        <h5 class="Titulo_en_footer_siguenos">Síguenos </h5>
+                        <hr class="Linea_titulo_footer_siguenos">
+                        <div class="Div_contenedor_exterior_imagenes_redes_sociales">
+                            <div class="Div_imagenes_enlaces_redes_sociales">
+                                <a class="enlace_imagen_footer" href="tu_enlace_aqui">
+                                    <img class="imagen_red_social" style="margin-left: 60px;" src="Imagenes/Logos_redes_sociales/instagram.svg" alt="Siguenos en Instagram @carry.mex">
+                                </a>
+                                <a class="enlace_imagen_footer" href="tu_enlace_aqui">
+                                    <img class="imagen_red_social" src="Imagenes/Logos_redes_sociales/linkedin.svg" alt="Siguenos en LinkedIn https://wwww.linkedin.com/company/carrylat/">
+                                </a>
+                                <a class="enlace_imagen_footer" href="tu_enlace_aqui">
+                                    <img class="imagen_red_social" src="Imagenes/Logos_redes_sociales/tiktok.svg" alt="Siguenos en Tiktok @carry.mex">
+                                </a>
+                                <a class="enlace_imagen_footer" href="tu_enlace_aqui">
+                                    <img class="imagen_red_social" src="Imagenes/Logos_redes_sociales/facebook.svg" alt="Siguenos en facebook @carry.mex">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="parte_derecha_parte_superior_derecha">
+                    </div>
+                </div>
+                <div class="parte_derecha_parte_inferior_exterior">
+    
+                    <div class="parte_derecha_parte_inferior_interior">
+                        <div class="parte_derecha_parte_inferior_legal">
+                            <h5 class="Titulo_en_footer_legal">Legal </h5>
+                            <hr class="Linea_titulo_footer_legal">
+                                <div class="div_enlaces_legal">
+                                    <ul class="Lista_enlaces_footer">
+                                        <li><a href="">Aviso de privacidad</a></li>
+                                        <li><a href="">Términos y condiciones</a></li>
+                                    </ul>
+                                </div>
+                        </div>
+                        <div class="parte_derecha_parte_inferior_usuarios">
+                            <h5 class="Titulo_en_footer_usuarios">Usuarios </h5>
+                            <hr class="Linea_titulo_footer_usuarios">
+                                <div class="div_enlaces_usuarios">
+                                    <ul class="Lista_enlaces_footer">
+                                        <li><a href="">Iniciar sesión</a></li>
+                                        <li><a href="">Soporte</a></li>
+                                    </ul>
+                                </div>
+                        </div>
+                    </div>
+    
+    
+                </div>
+            </div>
+        </div>
+        <div class="contenedor_inferior_footer">
+            <img src="Logos/CARRY_W.png" class="logo_footer">
+            <p class="copyright">© AMP Technologies S.A.P.I. de C.V.</p>
+        </div>
+    </footer>
+
+    <script src="Procesamiento.js"></script>
+</body>
+</html>
